@@ -183,7 +183,7 @@ bool StudentWorld::checkIce(int x, int y) const {
 }
 
 
-//checks if there is any ice in the specific area 4x4 grid
+//checks if there is any ice in the specific area 4x4 grid from x,y to x+3,y+3
 bool StudentWorld::checkIceArea(int x, int y) const {
 	for (int i = 0; i < 4; i++) {
 		for (int j = 0; j < 4; j++) {
@@ -216,6 +216,7 @@ void StudentWorld::dropBoulder(Boulder* rock) {
 		}
 	}
 	rock->moveTo(rock->getX(), rock->getY() - 1);
+	//depecrated code
 	//if (checkIce(rock->getX(), rock->getY()) == false) {
 	//	rock->moveTo(rock->getX(), rock->getY() - 1);
 	//}
