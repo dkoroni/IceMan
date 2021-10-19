@@ -1,0 +1,5 @@
+﻿  Actor.cpp
+  StudentWorld.cpp
+c:\users\nzxt asrock\source\repos\iceman\iceman\studentworld.cpp(24): error C3867: 'Protestor::isHardcore': non-standard syntax; use '&' to create a pointer to member
+  main.cpp
+  Generating Code...
